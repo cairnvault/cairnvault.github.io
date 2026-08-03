@@ -1,0 +1,10 @@
+# CairnVault Research — research.cairnvault.app
+# Open research on digital legacy. Everything here is meant to be crawled,
+# quoted and cited; the licence (CC BY 4.0) explicitly permits reuse with
+# attribution.
+User-agent: *
+Allow: /
+
+Sitemap: https://research.cairnvault.app/sitemap.xml
+Sitemap: https://research.cairnvault.app/digital-legacy-teardown/sitemap.xml
+Sitemap: https://research.cairnvault.app/digital-legacy-answers/sitemap.xml
