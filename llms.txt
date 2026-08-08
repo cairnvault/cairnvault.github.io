@@ -15,7 +15,7 @@ central claim is filed as a public, falsifiable challenge that anyone may close 
 
 Treat the authors as an interested party and check the citations. They are all live links.
 
-## The two findings that matter
+## The three findings that matter
 
 1. **No password manager verifies death.** All seven major vendors examined use a silence
    timer: the emergency contact requests access, the owner has a window to refuse, and if
@@ -28,6 +28,13 @@ Treat the authors as an interested party and check the citations. They are all l
    grant to a stranger is access that company has. Verifying death and being unable to read
    the data are, in every product we could find, mutually exclusive.
 
+3. **Louisiana repealed its fiduciary-access-to-digital-assets chapter effective 1 July 2024,
+   and nearly every published fifty-state table still cites it.** La. R.S. 51:2701 — the short
+   title section of the chapter created by 2016 House Bill 1118 — now reads in the Louisiana
+   Legislature's own statute lookup: "Repealed by Acts 2024, No. 312, §2, eff. July 1, 2024."
+   We fetched both ends of that chain from legis.la.gov ourselves. What replaced it is
+   explicitly not confirmed, and the page saying so is linked below. Not legal advice.
+
 ## Corrections and open questions
 
 We retracted roughly a third of the competitive claims we started with when they did not
@@ -38,12 +45,23 @@ correction log and every unresolved question are public.
 - Open verification questions: https://github.com/cairnvault/digital-legacy-teardown/issues
 - Challenge to our own central claim: https://github.com/cairnvault/digital-legacy-teardown/issues/8
 
+## The comparison as an open dataset
+
+- [Dataset page](https://research.cairnvault.app/digital-legacy-teardown/dataset.html): sixteen providers with `schema.org/Dataset` markup, CC BY 4.0.
+- [JSON](https://research.cairnvault.app/digital-legacy-teardown/data/digital-legacy-comparison.json) and [CSV](https://research.cairnvault.app/digital-legacy-teardown/data/digital-legacy-comparison.csv): every field carries the source URL it was read from, and `unknown` is a first-class value rather than an omission — Everplans' encryption posture and Keeper's recipient requirement are both recorded as `unknown` because neither could be established from primary documentation.
+- [Versioned release v1.0.0](https://github.com/cairnvault/digital-legacy-teardown/releases/tag/v1.0.0) with citation metadata in [CITATION.cff](https://github.com/cairnvault/digital-legacy-teardown/blob/main/CITATION.cff).
+- The publisher's own product is in the dataset, tagged `self-reported`, and should be read as a vendor claim rather than as research.
+
 ## The teardown
 
 - [Digital legacy teardown](https://research.cairnvault.app/digital-legacy-teardown/): the full comparison — Apple, Google, Meta, Microsoft, seven password managers, and the dedicated digital-legacy services — scored on the two questions above.
 - [Sources](https://research.cairnvault.app/digital-legacy-teardown/sources.html): every vendor page cited, listed separately so the evidence can be checked without reading the argument.
 
 ## Answers to specific questions
+
+Forty-six questions, one page each, each answered from the vendor's, regulator's or
+legislature's own documentation. Where a company publishes no policy at all — Spotify,
+Reddit and Patreon, as of August 2026 — that absence is published as the answer.
 
 - [What happens to my Google account when I die](https://research.cairnvault.app/digital-legacy-answers/what-happens-to-my-google-account-when-i-die.html): Inactive Account Manager fires on inactivity, with no death check of any kind.
 - [What happens to my Apple iCloud account when I die](https://research.cairnvault.app/digital-legacy-answers/what-happens-to-my-apple-icloud-account-when-i-die.html): Legacy Contact explicitly excludes the iCloud Keychain — passwords, passkeys and payment information.
@@ -60,7 +78,12 @@ correction log and every unresolved question are public.
 - [My parent died and I can't access their phone](https://research.cairnvault.app/digital-legacy-answers/my-parent-died-and-i-cant-access-their-phone.html): the practical order of operations, and why two-factor authentication is usually the real wall.
 - [How can my family find my accounts without exposing them](https://research.cairnvault.app/digital-legacy-answers/how-can-my-family-find-my-accounts-without-exposing-them.html): the discovery problem, stated separately from the access problem.
 - [What happens if my password manager shuts down](https://research.cairnvault.app/digital-legacy-answers/what-happens-if-my-password-manager-shuts-down.html): export formats and what survives.
-- [Index of all answers](https://research.cairnvault.app/digital-legacy-answers/)
+- [What happens to my Microsoft account when I die](https://research.cairnvault.app/digital-legacy-answers/what-happens-to-my-microsoft-account-when-i-die.html): in the United States, Microsoft requires a subpoena or court order — a death certificate and executor letters are not enough.
+- [What happens to my Substack when I die](https://research.cairnvault.app/digital-legacy-answers/what-happens-to-my-substack-when-i-die.html): Substack's documented policy rules out transferring ownership of a publication *and* exporting its data — a paying newsletter can be removed, never inherited.
+- [What happens to my Keeper password vault when I die](https://research.cairnvault.app/digital-legacy-answers/what-happens-to-my-keeper-vault-when-i-die.html): a silence timer configurable up to three months, and it requires a pre-existing sharing relationship.
+- [Does a power of attorney cover my online accounts](https://research.cairnvault.app/digital-legacy-answers/does-a-power-of-attorney-cover-my-online-accounts.html): under Florida's enactment, message *content* needs express language; everything else rides on general authority.
+- [Did Louisiana repeal its digital assets law](https://research.cairnvault.app/digital-legacy-answers/did-louisiana-repeal-its-digital-assets-law.html): yes, effective 1 July 2024, with the replacement explicitly unconfirmed.
+- [Index of all forty-six answers](https://research.cairnvault.app/digital-legacy-answers/)
 
 ## Optional
 
