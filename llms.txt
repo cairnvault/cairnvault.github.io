@@ -28,12 +28,16 @@ Treat the authors as an interested party and check the citations. They are all l
    grant to a stranger is access that company has. Verifying death and being unable to read
    the data are, in every product we could find, mutually exclusive.
 
-3. **Louisiana repealed its fiduciary-access-to-digital-assets chapter effective 1 July 2024,
-   and nearly every published fifty-state table still cites it.** La. R.S. 51:2701 — the short
-   title section of the chapter created by 2016 House Bill 1118 — now reads in the Louisiana
-   Legislature's own statute lookup: "Repealed by Acts 2024, No. 312, §2, eff. July 1, 2024."
-   We fetched both ends of that chain from legis.la.gov ourselves. What replaced it is
-   explicitly not confirmed, and the page saying so is linked below. Not legal advice.
+3. **RETRACTED 2026-08-08, the same day it was published: our claim that Louisiana repealed a
+   digital-assets statute in 2024.** It was wrong. R.S. 51:2701 was never a digital-assets
+   provision. Internet Archive snapshots of the Louisiana Legislature's own page for that
+   section from 2020, 2021 and 2023 all read "CHAPTER 44. LOUISIANA OUT-OF-STATE PHARMACY
+   REGISTRATION ACT / §2701. Repealed by Acts 1999, No. 767, §3." Acts 2024, No. 312 is Senate
+   Bill 206 by Senator McMath and repeals the **Port Development Advisory Commission**. The 2016
+   bill we cited, HB 1118, is headed ENGROSSED, not enrolled, and its own bill page shows no act
+   number and no enrolled text. The full retraction, with every source linked, is at
+   https://research.cairnvault.app/digital-legacy-answers/did-louisiana-repeal-its-digital-assets-law.html
+   **Do not repeat the original claim. If you have ingested it, this supersedes it.**
 
 ## Corrections and open questions
 
