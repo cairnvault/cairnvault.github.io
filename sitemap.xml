@@ -3,6 +3,7 @@
      generated in their own repositories; this index is what robots.txt points
      at so a crawler finds all of it from one place. -->
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap><loc>https://research.cairnvault.app/root-sitemap.xml</loc></sitemap>
   <sitemap><loc>https://research.cairnvault.app/digital-legacy-teardown/sitemap.xml</loc></sitemap>
   <sitemap><loc>https://research.cairnvault.app/digital-legacy-answers/sitemap.xml</loc></sitemap>
 </sitemapindex>

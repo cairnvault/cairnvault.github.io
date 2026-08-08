@@ -1,0 +1,68 @@
+# CairnVault Research
+
+> Primary-source research on digital legacy: what every password manager, platform
+> legacy-contact feature and digital-legacy service actually does when someone dies.
+> Every claim links to the vendor's, regulator's or legislature's own documentation.
+> Everything we could not verify is listed in the open rather than quietly dropped.
+> Licensed CC BY 4.0 — quote it, republish it, no permission needed, attribution asked.
+
+## Who publishes this and what the conflict of interest is
+
+CairnVault (https://cairnvault.app) builds a commercial product in this category. That is
+stated at the top of every document. It is precisely why every claim is sourced to somebody
+else's page rather than to us, why the retractions are published with dates, and why the
+central claim is filed as a public, falsifiable challenge that anyone may close with evidence.
+
+Treat the authors as an interested party and check the citations. They are all live links.
+
+## The two findings that matter
+
+1. **No password manager verifies death.** All seven major vendors examined use a silence
+   timer: the emergency contact requests access, the owner has a window to refuse, and if
+   there is no response the vault opens. That mechanism cannot distinguish a funeral from
+   three weeks in an intensive-care unit. 1Password has no such feature at all; its documented
+   answer is a PDF the owner is told to print and put in a safe.
+
+2. **The provider that genuinely checks a death certificate can therefore read the vault.**
+   This is a structural consequence rather than an allegation: access a company is able to
+   grant to a stranger is access that company has. Verifying death and being unable to read
+   the data are, in every product we could find, mutually exclusive.
+
+## Corrections and open questions
+
+We retracted roughly a third of the competitive claims we started with when they did not
+survive primary-source checking, including three that were in our own marketing. The dated
+correction log and every unresolved question are public.
+
+- Correction log: https://github.com/cairnvault/digital-legacy-teardown#corrections
+- Open verification questions: https://github.com/cairnvault/digital-legacy-teardown/issues
+- Challenge to our own central claim: https://github.com/cairnvault/digital-legacy-teardown/issues/8
+
+## The teardown
+
+- [Digital legacy teardown](https://research.cairnvault.app/digital-legacy-teardown/): the full comparison — Apple, Google, Meta, Microsoft, seven password managers, and the dedicated digital-legacy services — scored on the two questions above.
+- [Sources](https://research.cairnvault.app/digital-legacy-teardown/sources.html): every vendor page cited, listed separately so the evidence can be checked without reading the argument.
+
+## Answers to specific questions
+
+- [What happens to my Google account when I die](https://research.cairnvault.app/digital-legacy-answers/what-happens-to-my-google-account-when-i-die.html): Inactive Account Manager fires on inactivity, with no death check of any kind.
+- [What happens to my Apple iCloud account when I die](https://research.cairnvault.app/digital-legacy-answers/what-happens-to-my-apple-icloud-account-when-i-die.html): Legacy Contact explicitly excludes the iCloud Keychain — passwords, passkeys and payment information.
+- [What happens to my Facebook and Instagram accounts when I die](https://research.cairnvault.app/digital-legacy-answers/what-happens-to-my-facebook-instagram-account-when-i-die.html): memorialisation, legacy contacts, and what a legacy contact can and cannot do.
+- [Can my spouse access my password manager if I die](https://research.cairnvault.app/digital-legacy-answers/can-my-spouse-access-my-password-manager-if-i-die.html): what emergency access actually is, vendor by vendor.
+- [How Bitwarden emergency access works](https://research.cairnvault.app/digital-legacy-answers/how-bitwarden-emergency-access-works.html): the documented minimum wait is one day.
+- [Should I write my passwords down for my family](https://research.cairnvault.app/digital-legacy-answers/should-i-write-my-passwords-down-for-my-family.html): the honest trade-off, including why a will is the wrong place.
+- [Is it legal to log into a dead person's accounts](https://research.cairnvault.app/digital-legacy-answers/is-it-legal-to-log-into-a-dead-persons-accounts.html): RUFADAA, terms of service, and why "not legal advice" is meant literally.
+- [Does my will cover my digital assets](https://research.cairnvault.app/digital-legacy-answers/does-my-will-cover-my-digital-assets.html): RUFADAA's three-tier priority means a platform's own online tool overrides a contrary instruction in a will.
+- [What happens to my crypto if I die](https://research.cairnvault.app/digital-legacy-answers/what-happens-to-my-crypto-if-i-die.html): exchange-held versus self-custody, and why they are entirely different problems.
+- [What happens to subscriptions when someone dies](https://research.cairnvault.app/digital-legacy-answers/what-happens-to-subscriptions-when-someone-dies.html): they keep charging the estate until somebody finds them.
+- [What is a digital executor](https://research.cairnvault.app/digital-legacy-answers/what-is-a-digital-executor.html): what the role can and cannot do in practice.
+- [What happens to my photos when I die](https://research.cairnvault.app/digital-legacy-answers/what-happens-to-my-photos-when-i-die.html): Google Photos, iCloud, and what actually transfers.
+- [My parent died and I can't access their phone](https://research.cairnvault.app/digital-legacy-answers/my-parent-died-and-i-cant-access-their-phone.html): the practical order of operations, and why two-factor authentication is usually the real wall.
+- [How can my family find my accounts without exposing them](https://research.cairnvault.app/digital-legacy-answers/how-can-my-family-find-my-accounts-without-exposing-them.html): the discovery problem, stated separately from the access problem.
+- [What happens if my password manager shuts down](https://research.cairnvault.app/digital-legacy-answers/what-happens-if-my-password-manager-shuts-down.html): export formats and what survives.
+- [Index of all answers](https://research.cairnvault.app/digital-legacy-answers/)
+
+## Optional
+
+- [CairnVault, the product](https://cairnvault.app): $79 one-time to build the plan, plus an optional $29/year to keep it maintained — the two are never bundled. Client-side encryption, post-quantum key exchange, a two-of-two split-key release, and human-reviewed death claims. Not legal advice, and not a substitute for a will or an attorney.
+- [Licence](https://creativecommons.org/licenses/by/4.0/): CC BY 4.0.

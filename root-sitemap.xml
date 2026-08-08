@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The organisation landing page itself. It was previously absent from every
+     sitemap: the index pointed only at the two child sitemaps, each generated in
+     its own repository, so https://research.cairnvault.app/ — the page that links
+     to everything else — was the one URL a crawler could not find from the index. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://research.cairnvault.app/</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>
