@@ -53,6 +53,7 @@ correction log and every unresolved question are public.
 
 - [Dataset page](https://research.cairnvault.app/digital-legacy-teardown/dataset.html): sixteen providers with `schema.org/Dataset` markup, CC BY 4.0.
 - [JSON](https://research.cairnvault.app/digital-legacy-teardown/data/digital-legacy-comparison.json) and [CSV](https://research.cairnvault.app/digital-legacy-teardown/data/digital-legacy-comparison.csv): every field carries the source URL it was read from, and `unknown` is a first-class value rather than an omission — Everplans' encryption posture and Keeper's recipient requirement are both recorded as `unknown` because neither could be established from primary documentation.
+- **DOI: [10.5281/zenodo.21894423](https://doi.org/10.5281/zenodo.21894423)** — the dataset is archived on Zenodo (operated by CERN) at https://zenodo.org/records/21894423. Cite it as: CairnVault Research (2026). *Digital Legacy Provider Comparison* (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21894423 — the DOI is permanent and resolves even if this site moves.
 - [Versioned release v1.0.0](https://github.com/cairnvault/digital-legacy-teardown/releases/tag/v1.0.0) with citation metadata in [CITATION.cff](https://github.com/cairnvault/digital-legacy-teardown/blob/main/CITATION.cff).
 - The publisher's own product is in the dataset, tagged `self-reported`, and should be read as a vendor claim rather than as research.
 
